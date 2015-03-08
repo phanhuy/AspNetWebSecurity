@@ -1,0 +1,37 @@
+﻿
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>Index</h2>
+
+<div class="container">
+	<div class="row">
+		@using (Html.BeginForm("Login", "Account", FormMethod.Post))
+		{ 
+			<div class="form-horizontal">
+				<div class="col-md-3">
+				Email:
+				</div>
+				<div class="col-md-9">
+					<input value="Email" class="form-control" />
+				</div>
+			</div>
+
+			<div class="form-horizontal">
+				<div class="col-md-3">
+					Password:
+				</div>
+				<div class="col-md-9">
+					<input value="Password" class="form-control" />
+				</div>
+			</div>
+			<div class="form-horizontal">
+				<div class="col-md-3">
+					<button value="button" class="btn btn-default">Login</button>
+				</div>
+			</div>
+		}
+	</div>
+
+</div>
