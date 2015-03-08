@@ -118,11 +118,13 @@
     <Content Include="App_Data\AspNetDb_log.ldf">
       <DependentUpon>AspNetDb.mdf</DependentUpon>
     </Content>
+    <Content Include="App_Data\dbo.Users.sql" />
     <Content Include="Content\bootstrap.css" />
     <Content Include="Content\bootstrap.min.css" />
     <Content Include="Content\Site.css" />
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
     <Content Include="Global.asax" />
+    <Content Include="Screenshots\DatabaseName.png" />
     <Content Include="Scripts\bootstrap.js" />
     <Content Include="Scripts\bootstrap.min.js" />
     <None Include="Scripts\jquery-1.10.2.intellisense.js" />
