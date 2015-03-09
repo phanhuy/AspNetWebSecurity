@@ -13,5 +13,23 @@ namespace MVC.UI.Controllers
         {
             return View();
         }
+
+		[HttpPost]
+		public ActionResult Page(int nextPage)
+		{
+			int page = nextPage / nextPage +1;
+
+
+			return View();
+		}
+
+		[HttpGet]
+		public ActionResult PageGet(int nextPage)
+		{
+			int page = nextPage / nextPage + 1;
+
+
+			return View();
+		}
     }
 }

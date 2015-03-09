@@ -5,3 +5,16 @@
 
 <h2>Index</h2>
 
+<div class="row">
+	@using (Html.BeginForm("Page", "Home", FormMethod.Post))
+	{
+		<div class="form-horizontal">
+			<div class="col-md-3">
+				Test:
+			</div>
+			<div class="col-md-9">
+				<button value="button" class="btn btn-default">Test</button>
+			</div>
+		</div>
+	}
+</div>
